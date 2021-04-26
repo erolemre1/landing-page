@@ -1,0 +1,16 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    /* hoverin mobilden taşmasını engellemek için overflow hidden */
+    overflow: hidden;
+    height: 90px;
+}
+
+#hobies .items{
+    flex-direction: column;
+}
+
+#hobies .items .item{
+    width: 100%;
+}

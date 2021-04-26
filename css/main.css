@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar section */
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding-left: 0.5rem;
+}
+#navbar ul li a:hover{
+    padding-left: 0.5rem;
+    background: #336ea2;
+    border-radius: 90px;
+}
+
+/*  Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 2px solid gray;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius:50px;
+}
+
+#home .name{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 0.70rem;
+}
+#home .name p{
+    opacity: 0.5;
+    font-style: italic;
+}
+
+
+/* training */
+#hobies{
+    color: white;
+    padding: 1rem;
+    
+}
+#hobies .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hobies .items .item{
+    width: 33%;
+ height: auto;
+    text-align: center;
+    padding: 0.5;
+}
+ #hobies .items .item a:hover{
+     color: red;
+     opacity: 0.6;
+     cursor: pointer;
+ }
+#hobies h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+section{
+    margin-bottom: 50px;
+}
+
+
+#kitapp{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background: #336ea2;
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 1.25rem;
+    width: 20%;
+    border-radius: 5px;
+}
+
+#kitapp:hover{
+    color:#336ea2;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background: White;
+    display: block;
+    border: 1px solid #336ea2;
+    margin-bottom: 1.25rem;
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#kitapimg{
+    margin-top: 5px;
+    width: 33%;
+    display: flex;
+    
+
+   
+   
+}
+.movieimgwrapper #film #Filmid{
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background: #336ea2;
+   
+    border: 1px solid black;
+    margin-bottom: 1.25rem;
+    width: 21%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+}
+.movieimgwrapper #film #video{
+    width: 75%;
+    padding-left: 100px;
+}
+.movie{
+   display: flex;
+   flex-direction: column;
+   width: 38%;
+   height: auto;
+   margin-right: 100px;
+   margin-top: 40px;
+   
+   
+   
+}
+.movie #filming{
+    
+    margin-top: 25px;
+}
+.movieimgwrapper{
+    display:flex;
+}
+
+
+#video{
+    width: 33%;
+}
+
+#cvp{
+    margin: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.form-group{
+    margin: 1rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+#contact .contact-form ul{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-self: center;
+    padding: 10px;
+}
+
+#contact .contact-form ul li a{
+    margin-right: 100px;
+    
+}
+
+#contact .contact-form ul li a:hover{
+    opacity: 0.6;
+}
