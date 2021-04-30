@@ -83,3 +83,8 @@ text-align: center;
     resize: none;
     border-radius: 8px;
 }
+
+
+::-webkit-scrollbar{
+    display: none;
+}
