@@ -1,2 +1,2 @@
 # Landing Page
-![İmage](https://github.com/erolemre1/erolemre1.github.io/blob/main/landingpage.gif)
+![İmage](https://github.com/erolemre1/landing-page/blob/main/landingpage.gif)
